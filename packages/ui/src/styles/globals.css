@@ -1,3 +1,5 @@
+/* Spoqa Han Sans Neo font import */
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
 @import "tailwindcss";
 @source "../../../apps/**/*.{ts,tsx}";
 @source "../../../components/**/*.{ts,tsx}";
@@ -122,6 +124,7 @@
     @apply border-border outline-ring/50;
   }
   body {
+    font-family: "Spoqa Han Sans Neo", sans-serif;
     @apply bg-background text-foreground;
   }
 }
